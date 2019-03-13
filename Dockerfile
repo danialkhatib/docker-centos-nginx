@@ -1,6 +1,6 @@
 FROM centos:latest
 
-MAINTAINER "KoKsPfLaNzE" <kokspflanze@protonmail.com>
+MAINTAINER "Danial" <dkh@ites.be>
 
 ENV container docker
 
@@ -12,7 +12,7 @@ RUN yum -y update \
  && yum -y install nginx \
  && yum clean all \
  && rm -rf /etc/localtime \
- && ln -s /usr/share/zoneinfo/Europe/Berlin /etc/localtime
+ && ln -s /usr/share/zoneinfo/Europe/Brussels /etc/localtime
 
 EXPOSE 80
 EXPOSE 443
