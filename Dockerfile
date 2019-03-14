@@ -12,7 +12,7 @@ RUN yum -y update \
  && yum -y install nginx \
  && yum clean all \
  && rm -rf /etc/localtime \
- && ln -s /usr/share/zoneinfo/Europe/Brussels /etc/localtime
+ && ln -s /usr/share/zoneinfo/Europe/Cancun /etc/localtime
 
 EXPOSE 80
 EXPOSE 443
